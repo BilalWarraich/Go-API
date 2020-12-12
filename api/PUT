@@ -1,0 +1,34 @@
+1) /user/preferences:
+
+    Example Request Body :
+    
+        {
+            "1": {
+                "Display_name": "Let us know what is important for you?",
+                "Display_text": "No Help Text.",
+                "Options": [
+                    {
+                        "id": 4,
+                        "Display_text": "Banana"
+                    },
+                    {
+                        "id": 2,
+                        "Display_text": "Garlic"
+                    }
+                ]
+            },
+            "2": {
+                "Display_name": "Let us know what to do you like?",
+                "Display_text": "No Help Text.",
+                "Options": [
+                    {
+                        "id": 5,
+                        "Display_text": "Yogurt"
+                    },
+                    {
+                        "id": 7,
+                        "Display_text": "Cold Drinks"
+                    }
+                ]
+            }
+        }
